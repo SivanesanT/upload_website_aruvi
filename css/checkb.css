@@ -1,0 +1,38 @@
+body{
+    min-height: 425px; 
+background:linear-gradient(to top right,rgb(43, 43, 205), rgba(195, 60, 82, 0.819)) no-repeat center fixed ;
+font:16px/26px Georgia, Garamond, Serif;
+}
+.sivam{
+    background-color: white;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 220px;
+    margin-right:220px; 
+    margin-bottom: 200px;
+    border-radius: 75px;
+
+}
+.sabari{
+    background-color: rgb(55, 208, 213);
+    padding:10px;
+  margin-top: 5px;
+  border-radius: 10px;
+
+}
+.submit{
+    margin-bottom: 10px;
+    background-color: rgba(139, 203, 43, 0.809);
+    border-radius: 5px;
+}
+@media(max-width:715px){
+    .sivam{
+        font-size: 10px;
+    }
+}
+
+/* @media(max-width:541px){
+    .para h2{
+        font-size: 15px;
+    }
+} */
